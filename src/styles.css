@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pageHeadingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.pageHeading {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productListContaienr {
+  height: 100%;
+  flex: 4;
+  margin: 20px;
+}
+
+.productItemContainer {
+  border: 2px solid black;
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+.productItemContainer:hover {
+  cursor: pointer;
+}
+
+.editProductsContainer {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+input {
+  width: 80%;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+textarea {
+  width: 80%;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.submitButton {
+  align-self: flex-end;
+  width: 100%;
+  max-width: 100px;
+  border: 2px solid black;
+}
